@@ -1,0 +1,13 @@
+a = input("Gib eine Zeichenkette ein: ")
+b = -1
+
+for i in range(len(a)):
+    if a[i] == 'a':
+        b = i
+        break
+
+if b != -1:
+    print("Das erste 'a' befindet sich an der Position:", b)
+else:
+    print("Es wurde kein 'a' in der Zeichenkette gefunden.")
+
