@@ -1,6 +1,3 @@
-A = input("Gib eine Zahl an: ")
-bestimme_vorzeichen(A)
-
 def bestimme_vorzeichen(A):
     if A > 0:
         print("positiv")
@@ -9,3 +6,5 @@ def bestimme_vorzeichen(A):
     else:
         print("null")
 
+A = input("Gib eine Zahl an: ")
+bestimme_vorzeichen(A)

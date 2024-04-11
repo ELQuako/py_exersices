@@ -1,11 +1,10 @@
-A = 10
-B = 10
-C = 2
+A = 5
+B = 5
+C = 0
 
-C = setze_C(A, B, C)
-
-print("C nach (b):", C)
-def setze_C(A, B, C):
+def Setzen():
     if A == B:
         C = 5
-    return C
+        print(C)
+    
+Setzen()
