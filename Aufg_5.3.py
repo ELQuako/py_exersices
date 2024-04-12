@@ -1,4 +1,4 @@
-def ja_oder_nein(string):
+def ja_oder_nein(A):
     if 'e' in A:
         return'Ja'
     else:
