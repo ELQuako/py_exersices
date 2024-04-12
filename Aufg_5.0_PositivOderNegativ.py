@@ -1,4 +1,4 @@
-def bestimme_vorzeichen(A):
+def positiv_negative(A):
     if A > 0:
         print("positiv")
     elif A < 0:
@@ -7,4 +7,4 @@ def bestimme_vorzeichen(A):
         print("null")
 
 A = input("Gib eine Zahl an: ")
-bestimme_vorzeichen(A)
+positiv_negative(A)
