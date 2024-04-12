@@ -7,4 +7,3 @@ def check(string):
 A = 'Die Farbe ist rot'
 B = check(A)
 print(B)
-
