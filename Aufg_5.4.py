@@ -1,5 +1,5 @@
-def check(string):
-    if 'rot' in string:
+def check(A):
+    if 'rot' in A:
         return 'Ja'
     else:
         return 'Nein'
