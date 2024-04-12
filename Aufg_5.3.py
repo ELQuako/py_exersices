@@ -1,10 +1,10 @@
-def ja_oder_nein(A):
+def check(A):
     if 'e' in A:
         return'Ja'
     else:
         return'Nein'
 
 A = 'Affe'
-B = ja_oder_nein(A)
+B = check(A)
 print(B)
 
